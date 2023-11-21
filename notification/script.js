@@ -13,7 +13,7 @@ function showToast(msg){
     if(msg.includes('error')){
         toast.classList.add('error');
     }
-    if(msg.includes('invalid')){
+    if(msg.includes('Invalid')){
         toast.classList.add('invalid');
     }
 
