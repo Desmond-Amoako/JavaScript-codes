@@ -278,6 +278,29 @@ h4 {
   opacity: 1;
   transform: scale3d(1.1, 1.1, 1.1) translateZ(0);
 }  
+.dotgrid .actions{
+  z-index: 2;
+}
+.dotgrid .actions ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.dotgrid .actions ul li a {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: var(--white-color);
+  border-radius: 50%;
+}
+.dotgrid .actions ul li a:hover {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
 
 @media (min-width: 992px) {
   .menu-trigger {
