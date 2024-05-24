@@ -31,11 +31,12 @@ body.active {
     background: var(--bg-color);
 }
 #darkmode {
+    width: 20px;
     font-size: 25px;
+    border: 1px solid black;
     cursor: pointer;
 }
 header {
-    border: 1px solid black;
     position: fixed;
     width: 100%;
     top: 0;
@@ -54,10 +55,10 @@ header {
     color: var((--main-color));
 }
 .navbar {
-    border: 1px solid black;
     display: flex;
 }
 .navbar a {
+    border: 1px solid black;
     font-size: 1rem;
     padding: 10px 20px;
     color: var(--text-color);
@@ -168,6 +169,7 @@ header {
     font-weight: 500;
 }
 .box .bx {
+    /* border: 1px solid black; */
     position: absolute;
     right: 0;
     top: 0;
