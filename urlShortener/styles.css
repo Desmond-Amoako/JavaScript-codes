@@ -168,7 +168,66 @@ img {
 
 @media (max-width: 280px) {
   .header .main-navigation {
-    
+    padding: 0 25px;
   }
+}
+
+.header .main-navigation > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (max-width: 992px) {
+  .header .main-navigation > div {
+    flex-direction: column;    
+    width: 100%;
+    padding: 33.33333px 0;
+  }
+}
+
+@media (max-width: 280px) {
+  .header .main-navigation > div {
+    padding: 25px 0;
+  }
+}
+
+.header .main-navigation div:first-child {
+  border-bottom: 1px solid white;
+}
+
+.header .nav-buttons .btn {
+  color: #fff;
+  width: 80%
+}
+
+@media (max-width: 375px)  {
+  .header .nav-buttons .btn {
+    width: 100%;
+  }
+}
+
+.header .butger-menu {
+  font-size: 22px;
+  color: #9e9aa7;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .header .butger-menu {
+    display: block;
+  }
+}
+
+.main-navigation a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #9e9aa7;
+  transition: 0.3s;
+}
+
+.main-navigation a:hover {
+  color: #232127;
 }
 
